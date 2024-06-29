@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+.page {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.page .part {
+    width: 50%;
+    height: 100%;
+    
+    padding: 2vw 0;
+}
+
+.page .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2vw;
+    border-right: 2px solid white;
+}
+
+.left .msgcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4vw;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 1vw;
+    padding-bottom: 1vw;
+    width: 90%;
+    height: 90%;
+    /* background-color: cadetblue; */
+    /* border: 2px solid white; */
+}
+
+.msgcontainer .msg {
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 24px;
+    background-color: #005C4B;
+    color: white;
+    border-radius: 40px;
+
+}
+
+.receivingcontainer .messageone {
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 24px;
+    background-color: slategray;
+    color: white;
+    border-radius: 40px;
+}
+
+
+.page .left .message {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5vw;
+    width: 90%;
+    height: 54px;
+    border: 2px solid white;
+    border-radius: 40px;
+    overflow: hidden;
+    color: white;
+}
+
+.message input {
+    width: 80%;
+    height: 100%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    color: white;
+}
+
+.page .right {
+    display: flex;
+    justify-content: center;
+}
+
+.right .receivingcontainer {
+    display: flex;
+    flex-direction: column-reverse;
+    /* justify-content: flex-end; */
+    gap: 1vw;
+    align-items: flex-end;
+    padding: 1vw;
+    width: 90%;
+    height: 100%;
+    /* border: 2px solid white; */
+}
